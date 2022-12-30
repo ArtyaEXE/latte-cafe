@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=792c2609-8bbc-4248-b69b-7c950688c46d&lang=ru_RU&load=Geolink"
+      type="text/javascript"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Latte Cafe</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__top">
+            <nav class="header__nav">
+              <ul class="header-nav__list">
+                <li class="nav-list__item">
+                  <a href="#about" class="nav-item__link"> About </a>
+                </li>
+                <li class="nav-list__item">
+                  <a href="#menu" class="nav-item__link">Menu</a>
+                </li>
+                <li class="nav-list__item">
+                  <a href="#info" class="nav-item__link">Info</a>
+                </li>
+                <li class="nav-list__item">
+                  <a href="#booking" class="nav-item__link">Booking</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__logo">
+              <img src="./img/Logo.svg" alt="" />
+            </div>
+            <div class="header__social">
+              <a href="" class="header-social__link"
+                ><img src="./img/mail.svg" alt=""
+              /></a>
+              <a href="" class="header-social__link"
+                ><img src="./img/facebook.svg" alt=""
+              /></a>
+              <a href="" class="header-social__link"
+                ><img src="./img/inst.svg" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="header__bottom"></div>
+        </div>
+      </header>
+      <main class="main">
+        <section id="about">
+          <div class="about__container">
+            <div class="about__text">
+              <h2 class="about__title">About Us</h2>
+              <p class="about__descr">
+                Tucked away in the corner of Wellington, Latte Cafe is a local
+                neighbourhood cafe and bar. Latte is all about doing what we
+                love, in a city that we love. We keep stocked with local produce
+                and pastries. Bring your family for a bite, or meet your friends
+                for a coffee or warm drink.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="menu">
+          <div class="menu__container">
+            <div class="menu__left">
+              <h2 class="menu-left__title">Menu</h2>
+              <p class="menu-left__descr">
+                We change our menu every season. Here is what we are currently
+                dishing up.
+              </p>
+              <div class="menu__buttons">
+                <button class="menu__button menu-button--active">
+                  Food Menu
+                </button>
+                <button class="menu__button">Drinks Menu</button>
+                <button class="menu__button">Takeaway Menu</button>
+              </div>
+            </div>
+            <div class="menu__right"></div>
+          </div>
+        </section>
+        <section id="info">
+          <div class="info__container">
+            <div class="info__top">
+              <ul class="info__list">
+                <li class="info__item">
+                  <h3 class="info__title">Location</h3>
+                  <span class="ymaps-geolink">
+                    101 Cuba St,Te Aro, Wellington
+                  </span>
+                </li>
+                <li class="info__item">
+                  <h3 class="info__title">Hours</h3>
+                  <div class="info-time__block">
+                    <p class="info__descr">Tuesday to Friday</p>
+                    <span class="info__time">7AM - 3PM</span>
+                  </div>
+                  <div class="info-time__block">
+                    <p class="info__descr">Saturday to Sunday</p>
+                    <span class="info__time">8AM - 3PM</span>
+                  </div>
+                </li>
+                <li class="info__item">
+                  <h3 class="info__title">Mondays?</h3>
+                  <p class="info__descr">
+                    We are closed on Mondays to reflect and refuel
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="info__bottom">
+              <div class="info-bottom__left">
+                <div class="info-left__block">
+                  <img src="/img/left-1.jpg" alt="" />
+                </div>
+                <div class="info-left__block">
+                  <img src="/img/left-2.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="info-bottom__right">
+                <img src="/img/right.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="booking">
+          <div class="booking__container">
+            <div class="booking__content">
+              <div class="booking__left">Award winning cafe and bar.</div>
+              <div class="booking__right">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__top">
+            <ul class="footer-top__top">
+              <li class="footer-top__link">Home</li>
+              <li class="footer-top__link">About</li>
+              <li class="footer-top__link">Menu</li>
+              <li class="footer-top__link">Info</li>
+              <li class="footer-top__link">Contacts</li>
+              <li class="footer-top__link">Bookings</li>
+              <li class="footer-top__link">Privacy Policy</li>
+            </ul>
+            <ul class="footer-top__bottom">
+              <li class="footer-bottom__link">Style Guide</li>
+              <li class="footer-bottom__link">Licenses</li>
+              <li class="footer-bottom__link">Instructions</li>
+              <li class="footer-bottom__link">Changelog</li>
+              <li class="footer-bottom__link">Password</li>
+              <li class="footer-bottom__link">404</li>
+            </ul>
+          </div>
+          <div class="footer__bottom">
+            <ul class="bottom__list">
+              <li class="bottom__item">© Latte Cafe 2022.</li>
+              <li class="bottom__item">Built by Nikolai Bain</li>
+              <li class="bottom__item">Powered by Webflow</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

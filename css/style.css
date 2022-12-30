@@ -1,0 +1,328 @@
+
+body {
+    font-family: 'Azeret Mono', monospace;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.header__container {
+    padding:  40px;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(74,43,51,1) 100%);
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.header-nav__list {
+    display: flex;
+}
+.nav-list__item:not(:last-child) {
+    margin-right: 20px;
+}
+.nav-item__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #D27487;
+}
+
+.header-social__link:not(:last-child) {
+    margin-right: 17px;
+}
+.header__bottom {
+    height: 644px;
+    background-image: url(/img/header-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.about__container {
+    padding: 5% 256px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.about__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.about__title {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #222222;
+}
+.about__descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    color: #222222;
+}
+
+
+.menu__container {
+    padding: 120px 50px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(170,158,84);
+background: linear-gradient(0deg, rgba(170,158,84,1) 0%, rgba(255,255,255,1) 100%);
+}
+.menu__left {
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+}
+.menu-left__title {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6F6F64;
+    margin-bottom: 17px;
+}
+.menu-left__descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #6F6F64;
+    margin-bottom: 34px;
+}
+.menu__buttons {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.menu__button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #6F6F64;
+    padding: 17px;
+    border: 2px solid #6F6F64;
+}
+
+.menu-button--active {
+    color: #FFFFFF;
+    background-color: #6F6F64;
+}
+
+.menu__right {
+    width: 37%;
+    height: 1037px;
+    background-image: url(/img/menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 5px 10px 2px rgba(170, 158, 84, 0.2);
+    border-radius: 20px;
+}
+
+.info__container {
+    background: rgb(74,43,51);
+background: linear-gradient(0deg, rgba(74,43,51,1) 0%, rgba(170,158,84,1) 100%);
+}
+.info__top {
+    padding: 120px 56px;
+
+}
+.info__list {
+    display: flex;
+    justify-content: space-between;
+
+}
+.info__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 28%;
+    gap: 30px;
+}
+.info__title {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.info__descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.info__time {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.info__bottom {
+    padding: 32px 36px 120px 36px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.info-bottom__left {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+
+.info-bottom__right {
+    height: 100%;
+}
+
+.booking__container {
+    padding: 120px 40px;
+    background-color: #4A2B33;
+}
+.booking__content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.booking__left {
+    width: 30%;
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    letter-spacing: 1px;
+    color: #D27487;
+}
+.booking__right {
+    padding: 18px 40px 0 0;
+    width: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D27487;
+}
+
+
+
+.footer__container {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer__top {
+    margin-bottom: 16px;
+}
+.footer-top__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.footer-top__link:not(:last-child) {
+    margin-right: 32px;
+}
+
+.footer-top__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #1F1F1F;
+    cursor: pointer;
+}
+.footer-top__bottom {
+    justify-content: space-between;
+    display: flex;
+}
+.footer-bottom__link:not(:last-child) {
+    margin-right: 32px;
+}
+
+.footer-bottom__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #1F1F1F;
+    cursor: pointer;
+}
+
+.bottom__list {
+    display: flex;
+}
+.bottom__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.bottom__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #6D6B67;
+}
+
+.ymaps-geolink {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px!important;
+    line-height: 36px!important;
+    text-align: center;
+    color: #FFFFFF!important;
+}
+
+.ymaps-2-1-79-geolink-processed:before {
+    content: "";
+    display: none!important;
+}
+
+.ymaps-2-1-79-id-0 {
+    margin: 0!important;
+}
+
