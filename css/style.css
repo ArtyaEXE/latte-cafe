@@ -38,7 +38,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(74,43,51,1) 100%)
 }
 .header__bottom {
     height: 644px;
-    background-image: url(img/header-img.jpg);
+    background-image: url(..img/header-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -133,7 +133,7 @@ background: linear-gradient(0deg, rgba(170,158,84,1) 0%, rgba(255,255,255,1) 100
 .menu__right {
     width: 37%;
     height: 1037px;
-    background-image: url(img/menu.jpg);
+    background-image: url(../img/menu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
